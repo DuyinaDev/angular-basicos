@@ -1,0 +1,16 @@
+
+
+<header>
+    <h2>Hobbies of {{myName}}</h2> 
+</header>
+<hr>
+<div class="row">
+    <div class="col">
+        <app-hobbies-list [hobbies]="hobbies" [number]="number"></app-hobbies-list>
+    </div>
+    <div class="col">
+        <app-add [new]="new" (onNewHobby)="addNewHobby($event)" ></app-add>
+    </div>
+</div>
+
+

@@ -1,0 +1,16 @@
+ <h3>Agregar</h3>
+    <hr>
+
+    <form (submit)="add()">
+        <input
+             type="text" 
+             placeholder="Write here your hobby"
+             name="name"
+            [(ngModel)]="new.name"> 
+            <input 
+            type="text"
+            placeholder="Where would you like to practice this hobby? "
+            name="where"
+            [(ngModel)]="new.where">
+        <button>Add</button>
+    </form>

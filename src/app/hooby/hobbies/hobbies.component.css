@@ -1,0 +1,24 @@
+h2 {
+    color: pink;
+}
+p {
+    color:gray
+}
+input {
+  display: block;
+  margin: 5px;
+  
+}
+button {
+    background-color: green;
+}
+ul {
+    list-style: none;
+}
+.row {
+    display: flex;
+}
+.col {
+    flex-grow: 1;
+    margin-right: 10px;
+}
